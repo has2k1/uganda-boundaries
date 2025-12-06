@@ -13,13 +13,14 @@ The boundaries are low-resolution versions and have been manually adjusted to co
 
 ## Available Boundaries
 
-The repository includes five administrative levels organized in the `geojson/` directory:
+The repository includes six administrative levels organized in the `geojson/` directory:
 
-1. **national.geojson** (~200 KB) - National boundary of Uganda
-2. **regions.geojson** (~188 KB) - Regional boundaries (e.g., Central, Eastern, Western, Northern)
-3. **subregions.geojson** (~360 KB) - Sub-regional divisions
-4. **districts.geojson** (~1.1 MB) - District-level boundaries
-5. **counties.geojson** (~3.1 MB) - County-level boundaries (most detailed)
+1. **national.geojson** (~168 KB) - National boundary of Uganda
+2. **regions.geojson** (~424 KB) - Regional boundaries (e.g., Central, Eastern, Western, Northern)
+3. **subregions.geojson** (~848 KB) - Sub-regional divisions
+4. **districts.geojson** (~2.7 MB) - District-level boundaries
+5. **counties.geojson** (~4.1 MB) - County-level boundaries
+6. **subcounties.geojson** (~11 MB) - Sub-county level boundaries (most detailed)
 
 Each GeoJSON file follows the standard GeoJSON specification with:
 - Feature collections containing polygon geometries
